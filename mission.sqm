@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2520.1985,9.6709795,3536.0637};
-		dir[]={-0.71419263,-0.4469884,0.5386765};
-		up[]={-0.35687923,0.89453155,0.26917443};
-		aside[]={0.60217953,1.8347055e-007,0.79838634};
+		pos[]={4118.7642,173.97758,2014.0054};
+		dir[]={-0.9339112,-0.28367725,0.21774365};
+		up[]={-0.27627444,0.95891792,0.064413704};
+		aside[]={0.22706962,5.1279494e-007,0.97391433};
 	};
 };
 binarizationWanted=0;
@@ -382,20 +382,23 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.2;
+		startWeather=0;
+		startFog=0.21126212;
 		startWind=0.1000001;
 		startWaves=0.1;
-		forecastWeather=0.2;
+		forecastWeather=0;
+		forecastFog=0.067584023;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
-		year=1940;
+		year=2035;
 		day=3;
-		hour=12;
-		startFogDecay=0.014;
-		forecastFogDecay=0.014;
+		hour=3;
+		minute=19;
+		startFogDecay=0.017672416;
+		forecastFogDecay=0.02;
 	};
 	class Entities
 	{
@@ -7579,6 +7582,7 @@ class Mission
 			};
 			id=1148;
 			type="RDS_Gaz24_Civ_03";
+			atlOffset=-2.3841858e-007;
 		};
 		class Item122
 		{
@@ -11624,7 +11628,7 @@ class Mission
 			};
 			id=1311;
 			type="gm_gc_army_brdm2";
-			atlOffset=-0.00023269653;
+			atlOffset=-0.00037002563;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11837,7 +11841,7 @@ class Mission
 			};
 			id=1312;
 			type="gm_gc_army_brdm2";
-			atlOffset=0.0022735596;
+			atlOffset=0.00390625;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12050,6 +12054,7 @@ class Mission
 			};
 			id=1313;
 			type="gm_gc_army_brdm2";
+			atlOffset=-0.00013804436;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12262,7 +12267,7 @@ class Mission
 			};
 			id=1314;
 			type="gm_gc_army_brdm2";
-			atlOffset=-0.0071806908;
+			atlOffset=-0.0073239803;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12475,7 +12480,7 @@ class Mission
 			};
 			id=1315;
 			type="gm_gc_army_brdm2";
-			atlOffset=-0.00011134148;
+			atlOffset=-0.00024795532;
 			class CustomAttributes
 			{
 				class Attribute0
