@@ -45,6 +45,8 @@ if (_vehicle isKindOf "gm_wheeled_base") then {
         [_vehicle,"gm_insignia_recon_x_01_wht",3,0] call gm_core_vehicles_fnc_vehicleMarkingsUpdateAttributes;
         [_vehicle,"gm_insignia_none",3,2] call gm_core_vehicles_fnc_vehicleMarkingsUpdateAttributes;
         [_vehicle,"gm_gc_schablonier_blk",2,1] spawn gm_core_vehicles_fnc_vehicleMarkingsUpdateAttributes;
+
+        _vehicle animate ["sirenLights_01_unhide",0];
     };
 };
 
