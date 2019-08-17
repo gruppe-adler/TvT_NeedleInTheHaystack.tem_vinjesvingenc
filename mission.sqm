@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2614.019,265.96609,4077.5264};
-		dir[]={0.18750761,-0.83087975,0.52392328};
-		up[]={0.27997649,0.55644393,0.78229362};
-		aside[]={0.94152457,-6.3024345e-008,-0.33696461};
+		pos[]={5116.1816,10.336751,1500.838};
+		dir[]={-0.13040698,-0.41517428,0.90034813};
+		up[]={-0.059513148,0.90974122,0.41088691};
+		aside[]={0.9896732,5.6752469e-010,0.14334491};
 	};
 };
 binarizationWanted=0;
@@ -1854,6 +1854,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -2206,6 +2207,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -2558,6 +2560,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -2910,6 +2913,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -3345,6 +3349,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 								aiRadarUsage=544042752;
@@ -3625,6 +3630,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 								aiRadarUsage=544042752;
@@ -4064,6 +4070,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 								aiRadarUsage=544042752;
@@ -4341,6 +4348,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="SERGEANT";
 								description="Medic";
 								isPlayable=1;
 								aiRadarUsage=544042752;
@@ -14219,6 +14227,7 @@ class Mission
 			};
 			id=1415;
 			type="gm_ge_pol_typ1200";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14800,7 +14809,7 @@ class Mission
 			};
 			id=1416;
 			type="gm_ge_pol_typ1200";
-			atlOffset=-0.026959419;
+			atlOffset=-0.026959181;
 			class CustomAttributes
 			{
 				class Attribute0
